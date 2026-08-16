@@ -1,1 +1,9 @@
-A weight converter program that converts the given weight from kgs to lbs and vice versa.
+Java Learning
+
+This repository documents my Java learning journey as an ECE student.
+
+Projects :
+
+Weight ConverterConverts weight between kilograms and pounds.
+
+Temperature ConverterConverts temperature to Celsius or Kelvin.
