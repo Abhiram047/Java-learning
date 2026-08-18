@@ -14,7 +14,7 @@ public class TemperatureConverter {
     System.out.print("Convert into Celsius or Kelvin? (C or K): ");
     unit = scanner.next().toUpperCase();
 
-    newTemp = (unit.equals("C")) ? (temp - 32) * 5 / 9 : (temp + 273.15);
+    newTemp = (unit.equals("C")) ? (temp - 32) * 5 / 9 : (temp - 32) * 5/9 + 273.15;
 
         System.out.printf("%.2f°%s" , newTemp , unit);
       scanner.close();
